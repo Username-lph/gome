@@ -1,4 +1,13 @@
 @import url(./base.css);
+/*font*/
+@font-face {
+  font-family: 'iconfont';  /* project id："161693" */
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
 /*gome-top*/
 .gome-top{
 	height:30px;
@@ -194,7 +203,7 @@
 .icon-img a{
 	color:#999;
 }
-.name-icon i{
+.name-icon span{
 	display:block;
 	height:40px;
 	font-size:40px;
@@ -316,7 +325,7 @@
 	width:210px;
 	display:none;
 }
-.gome-service em{
+.gome-service span{
 	font-size:16px;
 	color:#e31013;
 	background:0px 0px;
